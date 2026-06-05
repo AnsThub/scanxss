@@ -1,16 +1,156 @@
-🔥 ScanXSS
+<div align="center">ScanXSS
 
-<div align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=ScanXSS+-+Cross+Site+Scripting+Scanner;Fast+%7C+Lightweight+%7C+Powerful;Developed+By+AnsXploit;Termux+Supported" /><br>"Python" (https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
-"Version" (https://img.shields.io/badge/Version-1.0-red?style=for-the-badge)
-"Platform" (https://img.shields.io/badge/Platform-Termux-green?style=for-the-badge)
-"Status" (https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=850&lines=Cross+Site+Scripting+Scanner;Fast+Parameter+Discovery;Python+%7C+Termux+%7C+Linux;Developed+by+AnsXploit" /><br><p align="center">
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/Platform-Termux-000000?style=for-the-badge">
+<img src="https://img.shields.io/badge/Linux-Supported-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge">
+</p></div>---
 
-</div>---
+Overview
 
-⚡ Loading Preview
+ScanXSS adalah tool berbasis Python yang dirancang untuk membantu proses identifikasi parameter input yang berpotensi digunakan dalam pengujian keamanan aplikasi web.
 
-[■■□□□□□□□□] 20%
-[■■■■□□□□□□] 40%
+Tool ini dibuat dengan fokus pada:
+
+- Kecepatan
+- Kemudahan penggunaan
+- Kompatibilitas Termux
+- Tampilan terminal yang bersih
+- Workflow sederhana
+
+---
+
+Screenshot
+
+<p align="center">
+<img src="./preview.jpg" width="100%">
+</p>---
+
+Features
+
+✔ Fast Parameter Discovery
+
+✔ Lightweight Scanner
+
+✔ Clean Terminal Interface
+
+✔ Python Based
+
+✔ Termux Compatible
+
+✔ Easy To Use
+
+✔ Single Target Testing
+
+✔ Colorized Output
+
+---
+
+Installation
+
+pkg update -y
+
+pkg install git python -y
+
+git clone https://github.com/AnsThub/scanxss
+
+cd scanxss
+
+python scanxss.py
+
+---
+
+Usage
+
+Run:
+
+python scanxss.py
+
+Target Example:
+
+https://example.com/search?q=test
+
+---
+
+Parameter Reference
+
+<details><summary><strong>Click To Expand</strong></summary>inurl:?q=
+inurl:?s=
+inurl:?search=
+inurl:?query=
+inurl:?keyword=
+inurl:?id=
+inurl:?page=
+inurl:?cat=
+inurl:?user=
+inurl:?name=
+inurl:?msg=
+inurl:?comment=
+
+</details>---
+
+Workflow
+
+Target URL
+     │
+     ▼
+Parameter Detection
+     │
+     ▼
+Payload Injection
+     │
+     ▼
+Response Analysis
+     │
+     ▼
+Result Output
+
+---
+
+Supported Platforms
+
+Platform| Status
+Linux| ✅
+Termux| ✅
+Ubuntu| ✅
+Debian| ✅
+Kali Linux| ✅
+
+---
+
+Repository Structure
+
+scanxss/
+│
+├── scanxss.py
+├── preview.jpg
+├── README.md
+│
+└── assets/
+
+---
+
+Author
+
+Name: AnsXploit
+Project: ScanXSS
+Language: Python
+Platform: Linux / Termux
+
+---
+
+Disclaimer
+
+This project is intended solely for educational purposes and authorized security testing.
+
+Users are responsible for ensuring that all activities conducted with this software comply with applicable laws, regulations, and authorization requirements.
+
+---
+
+<div align="center">If you like this project, consider giving it a ⭐
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=Thanks+for+using+ScanXSS;Happy+Coding" /></div>[■■■■□□□□□□] 40%
 [■■■■■■□□□□] 60%
 [■■■■■■■■□□] 80%
 [■■■■■■■■■■] 100%
